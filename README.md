@@ -16,13 +16,14 @@ This handbook serves as a guide to the Stacks ecosystem, geared towards those ju
 - [Stacks Blockchain](#stacks-blockchain)
 - [Ecosystem Projects](#ecosystem-projects)
 - [Resources](#resources)
+- [Handy Code Snippets](#handy-code-snippets)
 - [Contributing](#contributing)
 
 ## Introduction
 
 What is Stacks:
 
-- [Stacks Overview](https://www.stacks.co/learn/introduction) - Explore the fundamentals of Stacks and its integration with Bitcoin.
+- [Stacks Overview](https://www.stacks.co/learn/introduction) - Fundamentals of Stacks and its integration with Bitcoin.
 
 ## Getting Started
 
@@ -92,6 +93,72 @@ Extra stuff:
 - [Clarity Universe](https://clarity-lang.org/universe) - Immersive learning experience for mastering Clarity development.
 - [Clarity of Mind Book](https://book.clarity-lang.org/) - Comprehensive guide to writing efficient and secure Clarity smart contracts.
 
+## Handy Code Snippets
+
+Some code snippets which you can copy/paste to kickstart your project:
+
+### Clarity Smart Contract
+
+```clarity
+;; Define a simple counter contract
+
+;; Define a data var to store the counter
+(define-data-var counter uint u0)
+
+;; Public function to get the current count
+(define-read-only (get-count)
+  (var-get counter))
+
+;; Public function to increment the counter
+(define-public (increment)
+  (begin
+    (var-set counter (+ (var-get counter) u1))
+    (ok (var-get counter))))
+
+;; Public function to decrement the counter
+(define-public (decrement)
+  (begin
+    (if (> (var-get counter) u0)
+      (var-set counter (- (var-get counter) u1))
+      (var-set counter u0))
+    (ok (var-get counter))))
+```
+
+### Interacting with Stacks using JavaScript
+
+```javascript
+import { StacksTestnet } from '@stacks/network';
+import { callReadOnlyFunction, cvToValue, uintCV } from '@stacks/transactions';
+
+// Set up the network (testnet in this example)
+const network = new StacksTestnet();
+
+// Define contract details
+const contractAddress = 'ST2ZRX0K27GW0SP3GJCEMHD95TQGJMKB7G9Y0X1MH';
+const contractName = 'counter';
+const functionName = 'get-count';
+
+// Call a read-only function
+async function getCount() {
+  const result = await callReadOnlyFunction({
+    network,
+    contractAddress,
+    contractName,
+    functionName,
+    functionArgs: [],
+    senderAddress: contractAddress,
+  });
+  
+  console.log('Current count:', cvToValue(result));
+}
+
+getCount();
+```
+
+These examples showcase:
+1. A simple Clarity smart contract for a counter.
+2. JavaScript code to interact with a Stacks smart contract.
+
 ## Contributing
 
 We welcome contributions to make this handbook even more legendary! Here's how you can contribute:
@@ -107,4 +174,4 @@ Please ensure your contributions align with our code of conduct and contribution
 
 ## Credit/Inspiration
 
-This handbook was inspired by the famous awesome lists by sindresorhus. We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is
+This handbook was inspired by the famous awesome lists by sindresorhus. We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is the answer to that need.
