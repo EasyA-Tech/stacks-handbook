@@ -18,39 +18,39 @@ This handbook serves as a guide to the Stacks ecosystem, geared towards those ju
 - [Resources](#resources)
 - [Contributing](#contributing)
 
-## [Introduction](#introduction)
+## Introduction
 
 What is Stacks?
 
-## [Getting Started](#getting-started)
+## Getting Started
 
 The no-fluff starter.
 
-## [Core Concepts](#core-concepts)
+## Core Concepts
 
 Explanation of fundamental concepts in the Stacks ecosystem.
 
-## [Development Tools](#development-tools)
+## Development Tools
 
 Key tools and environments for Stacks.
 
-## [Smart Contracts](#smart-contracts)
+## Smart Contracts
 
 How to write and deploy smart contracts on Stacks.
 
-## [Stacks Blockchain](#stacks-blockchain)
+## Stacks Blockchain
 
 Going into the blockchain level.
 
-## [Ecosystem Projects](#ecosystem-projects)
+## Ecosystem Projects
 
 Cool projects built on Stacks.
 
-## [Resources](#resources)
+## Resources
 
 Extra stuff.
 
-## [Contributing](#contributing)
+## Contributing
 
 We welcome contributions to make this handbook even more legendary! Here's how you can contribute:
 
