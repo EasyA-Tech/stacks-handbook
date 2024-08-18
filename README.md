@@ -67,7 +67,23 @@ Going into the blockchain level:
 
 Cool projects built on Stacks:
 
-TBA
+- [ALEX](https://alexgo.io) - Open-source DeFi protocol modeled on the world's financial markets.
+- [Arkadiko](https://arkadiko.finance) - Open source protocol that mints a stablecoin, generating Bitcoin yield.
+- [Bitflow](https://www.bitflow.finance) - The decentralized exchange for Bitcoiners.
+- [Blocksurvey](https://blocksurvey.io) - AI-driven survey platform with focus on data ownership and privacy.
+- [btc.us](https://btc.us) - An application for .btc names.
+- [Console](https://www.console.xyz) - Decentralized community application.
+- [Gamma](https://gamma.io) - Explore, collect, and sell NFTs secured by Bitcoin.
+- [GoSats](https://gosats.io) - Bitcoin Cashback Rewards application that enables stacking fractional bitcoin every time you shop.
+- [Hermetica](https://www.hermetica.fi) - A Bitcoin-backed, yield-bearing synthetic dollar protocol.
+- [Light Finance](https://lightfinance.xyz) - The only stablecoin with native yield for Bitcoin.
+- [MultiSafe](https://github.com/Trust-Machines/multisafe) - MultiSafe is a shared crypto vault for managing Stacks (STX) and Bitcoin (BTC).
+- [Owl Link](https://owl.link) - An application to create linking page for BNS names.
+- [Sigle](https://www.sigle.io) - De-centralised and open-source Web 3.0 writing platform.
+- [Stacking DAO](https://stackingdao.com) - Liquid stacking on Stacks.
+- [STX20](https://stx20.com) - The STX20 protocol introduces a novel approach to creating and sharing digital artifacts on the Stacks blockchain.
+- [Velar](https://velar.co) - Velar is a multi-feature DeFi app with Bitcoin finality, built on Stacks.
+- [Zest Protocol](https://app.zestprotocol.com) - Zest Protocol is a lending protocol, built for Bitcoin.
 
 ## Resources
 
@@ -91,8 +107,4 @@ Please ensure your contributions align with our code of conduct and contribution
 
 ## Credit/Inspiration
 
-This handbook was inspired by the famous awesome lists by sindresorhus. We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is the answer to that need.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/EasyA-Tech/stacks-handbook/blob/main/LICENSE) file for details.
+This handbook was inspired by the famous awesome lists by sindresorhus. We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is
