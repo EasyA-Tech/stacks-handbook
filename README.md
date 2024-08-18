@@ -68,4 +68,4 @@ This handbook was inspired by the famous awesome lists by sindresorhus. We need 
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/EasyA-Tech/stacks-handbook/blob/main/README.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/EasyA-Tech/stacks-handbook/blob/main/LICENSE) file for details.
