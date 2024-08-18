@@ -7,4 +7,4 @@ This handbook serves as a guide to the Stacks ecosystem, geared towards those ju
 
 # Credit/Inspiration
 
-This handbook was inspired by the famous [awesome lists]([https://github.com/sindresorhus/awesome] by sindresorhus. We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is the answer to that need.
+This handbook was inspired by the famous [awesome lists](https://github.com/sindresorhus/awesome by sindresorhus). We need awesome lists for Web3 ecosystems, with more of a hacker's guide to how they work. This is the answer to that need.
