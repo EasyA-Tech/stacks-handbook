@@ -35,7 +35,7 @@ The no-fluff starter:
 
 - [Official Stacks documentation](https://docs.stacks.co/) - Comprehensive guides and references for Stacks development.
 - [Hiro documentation](https://docs.hiro.so/) - In-depth resources for building on Stacks with Hiro tools.
-- [Stacks 101](https://stacks101.com) - Community-driven knowledge hub for Stacks learners.
+- [Stacks 101](https://stacks101.com) - Community-driven knowledge hub for learning Stacks.
 
 ## Core Concepts
 
